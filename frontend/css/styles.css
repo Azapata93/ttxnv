@@ -1,0 +1,124 @@
+.header,nav,table footer{
+		display: block;
+		font-family: verdana, Arial, Geneva, Arial Black;
+		font-weight: bolder;
+		font-size: 10px;
+	}
+    
+    .header { border: 1px solid red;
+    padding: 0px;
+    text-decoration: none;
+    margin: 2px;
+    background-color:#527F92;
+    color:#983222;
+	text-align: center;
+	line-height: normal;
+		}
+
+
+
+	table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color:#527F92;
+    border-width:50%;
+    border-spacing: 0;
+
+}
+
+     th, td {
+    padding: 5px 10px;
+    text-align: left;    
+}
+
+	.navbar .navbar-nav {
+ display: inline-block;
+ padding-top: 1px;
+ margin-top: 1px;
+ /* You'd have to adjust this whenever an item is added to the nav-bar */
+ 
+ 
+ color:#527F92;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+  span{color:red;}
+  
+  #footer {
+    border: 1px solid red;
+    color: efe5d0;
+    text-align: center;
+    padding: 15px;
+     margin:10px;
+    height:80px;
+    	}
+    	
+    	
+    	.button{
+    	    background:e7e7e7;
+    	     border: 1px solid;
+    	     border-radius: 3px;
+    	     padding:0 20px;
+    	     font:700 13px Helvetica ;
+    	     line-height: 28px;
+    	     text-align: center;
+    	     margin-right: 10px;
+    	     box-sizing: border-box;
+    	   	}
+    	   	
+    	   	ul {
+    	   	    padding:0;
+    	   	    list-style-type: none;
+    	   	    text-align:center;
+    	   	    
+    	   	}
+ 
+           li {
+               display: inline;
+               
+           }
+           
+            a {
+               color:#666;
+               text-decoration: none;
+               text-align: center;
+           }
+ 
+           a:hover {
+               color:#000;
+               background-color: #dadada;
+           }
+    
+    .form-group{
+        margin:50px;
+        display: table;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
