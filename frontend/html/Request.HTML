@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TTX </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+   	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Train2Go</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Training Request</a></li>
+        <li><a href="#">Status</a></li>
+		<li><a href="#">Completion</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Supervisor<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Requests</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Vendor </a></li>
+			<li><a href="#">Checkbook</a></li>
+			<li><a href="#">Search History</a></li>
+			<li><a href="#">Approvals</a></li>
+          </ul>
+        </li>
+		</ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<h3>Training Request</h3>
+<form role="form">
+<div class="form-group">
+<span>Employee Name *  </span><input type="text"</input>
+<br>
+<br>
+<span>Employee Id *  </span><input type="text"</input>
+<br>
+<br>
+<span>Supervisor Name * </span><input type="text"</input>
+<br>
+<br>
+<label for="Course Type"> <span>Course Type  </span>:</label>
+<select class="form-control" id="sel1">
+<option>Class Room  </option>
+<option>Conference</option>
+<option>In-House</option>
+<option>Seminar</option>
+<option>Web/Computer</option>
+</select><br>
+<span>Course  Name * </span><input type="text" /> <br></br>
+
+<span>Course Id * </span><input type="text" /> <br></br>
+
+<span>Start Date * </span><input type="text" /> <br></br>
+<span>End Date * </span><input type="text" /> <br></br>
+<span>Location: Address </span><input type="text" /> <br></br>
+<span>City   </span><input type="text" /><br> </br>
+<span>State  </span><input type="text" /><br></br>
+<span>ZIP Code   </span><input type="text" /><br></br>
+<span>Cost *  </span><input type="number" /><br></br>
+<span>Related Expense *  </span><input type="number" /><br></br>
+ <label for="courseobective">Course Objective:</label>
+         <textarea class="form-control" rows="1" id="courseobjective"></textarea> <br></br>
+         
+     <p>Is the cost for training included in this year plan?<span>* </span></p>
+     <form role="form">
+     <div class="radio">
+     <label><input type="radio" name="optradio">yes</label>
+     </div>
+     <div class="radio">
+      <label><input type="radio" name="optradio">no</label>
+
+	  <p>Vendor Infromation:</p>
+    <span>Name *  </span><input type="text" /><br></br>
+	<span>Adreess   </span><input type="text" /><br></br>
+	<span>City         <input type="text" /><br></br>
+	<span>ZIP</span><input type="text"/><br></br>
+
+
+   </div>
+  </form>
+</div>
+<div class="button-bar">
+&nbsp&nbsp&nbsp&nbsp&nbsp<button><</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <button>></button>
+</div>
+
+</body>
+</html>
+
