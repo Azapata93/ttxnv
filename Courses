@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel
+<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+<p id="demo"></p>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+   	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">    TTX   </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        
+        <li><a href="#">Training Request</a></li>
+        <li><a href="#">Status</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administrator <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Requests/Approvals</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Vendor </a></li>
+			<li><a href="#">Checkbook</a></li>
+			<li><a href="#">Search History</a></li>
+          </ul>
+        </li>
+		
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>Supervisor:   Scott Wissel </h1>
+  <h2>Department:   IT</h2>
+  <h2>Department Budget: $  </h2> 
+  <div class="row" style="background-color:lavender;">
+    <div class="col-xs-6 col-sm-6">Supervisor</div>
+    <div class="col-xs-6 col-sm-6">.col-xs-6 .col-sm-6</div>
+    <div class="col-xs-6 col-sm-6">.col-xs-6 .col-sm-6</div>
+	<div>
+	  <h3> Course Description </h3>
+	 <p>Employee Id: Emp_Id    Employee First Name:  Emp_First_Nm      Employee Last Name:     Emp_Last_Nm<br>
+	    Training Course Name: Trng_Cors_Nm            Training Course Id               Trng_Cors_Id<br>
+	    Training Course Type: Trng_Cors_Typ<br>
+	    Start Date:  Trng_Cors_Strt_Dt           End Date:           Trng_Cors_End_Dt<br>
+	    Cost:  Trng_Cors_Cost                    Related Expense: Trng_Cors_Rltd_Exp_Amt<br>
+	    Address: Trng_Cors_Address               <br>
+	    City Trng_Cors_City           State Trng_st      ZIP Trng_ZIP<br>
+	    Objective:  Cors_Obj</p><br>
+	 </div>   
+  <div class="row" style="background-color:lavender;"><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+  <div> <h3>Vendor Information</h3>
+  <p> Vendor ID Vndr_Id        Vndr_Name  Vendor Name:  (br)
+  Vendor Address:  Vndr_Mail_Addr  (br)
+  City:  Vndr_Mail_City        _State:   Vndr_st     ZIP vndr_ZIP
+   <div class="row" style="background-color:lavenderblush;"><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+    <div class="col-xs-6 col-sm-6"></div><br>
+  <div>
+  <div Form>
+  <div class="container">
+  <h2>Form control: checkbox</h2>
+  <p>The form below contains three checkboxes. The last option is disabled:</p>
+  <form role="form">
+    <div class="checkbox">
+      <label><input Approval="" value="Approved">Option 1</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="" value="Pending">Option 2</label>"send to Purnesh"
+    </div>
+    <div class="checkbox ">
+      <label><input type="" value="Not Approved">Option 3</label>
+    </div>
+  </form>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+

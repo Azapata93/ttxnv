@@ -1,0 +1,27 @@
+.container{
+  width: auto;
+ 
+}
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+body {
+  margin: 0 auto;
+  width: 95%
+  background-color: lavender;
+}
+
+#trainTable {
+  border: solid 1px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px;
+  border: solid 1px;
+}

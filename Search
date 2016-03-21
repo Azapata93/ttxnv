@@ -1,0 +1,114 @@
+<!doctype html/>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Train2Go</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        
+        <li><a href="#">Training Request</a></li>
+        <li><a href="#">Status</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administrator <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Requests</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Vendor </a></li>
+            <li><a href="#approval">Approval </a></li>
+		      	<li><a href="#">Checkbook</a></li>
+		      	<li><a href="#">Search History</a></li>
+          </ul>
+        </li>
+		
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container">
+  <h2> Advanced Search </h2>
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Search History">Employee Name or Id</label>
+      <div class="col-sm-4">
+        <input type="" class="form-control" id=" " placeholder=" ">
+      </div>
+    </div>
+    
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="search "></label>
+      <div class="col-sm-4"> 
+	  
+        <input type=" " class="form-control" id=" " placeholder="  ">
+		<h6>Keywords: Course, Course ID, Location, Approvals,Completion, Cost, Seminar, Classroom, in house, manager, cash, cost, checkbook, conference, web/computer<h6>
+      </div>
+    </div>
+    <div class="form-group">        
+      <label class="control-label col-sm-2" for="Dates">Date From</label>
+	  <a href="#">
+          <span class="glyphicon glyphicon-calendar"></span>
+        </a>
+        <div class="coll-sm-2">
+         <input type="date" class="form-control" id="  " placeholder=" ">
+		 </div> 
+		 
+		 
+      </div>
+	<div class="form-group">
+	  <label class="control-label col-sm-2" for="Dates">Date To</label>
+		<a href="#">
+          <span class="glyphicon glyphicon-calendar"></span>
+        </a>
+		<div class="coll-sm-2">
+		  <input type="date" class="form-control" id="  " placeholder=" ">
+    </div> 
+	
+	<p>  </p>
+	<p>  </p>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-2">
+	  
+	  
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+		
+      </div>
+    </div>
+</div>
+</body>

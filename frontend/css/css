@@ -1,0 +1,16 @@
+
+
+body
+{
+  display: block;
+  padding: 5px;
+  margin:15px;
+  background-color:#527F92;
+}
+  
+
+
+.panel-height 
+{
+  height: 1000px; 
+}

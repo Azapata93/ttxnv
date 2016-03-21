@@ -40,6 +40,7 @@ create database trainrequest;
 drop table trainrequest.public.TTX_Empl_Trng_Reqst;
 
 CREATE TABLE trainrequest.public.TTX_Empl_Trng_Reqst (
+
 	Trng_Reqst_Nbr int NOT NULL,
 	Cntct_Email_Addr varchar(65) NOT NULL,
 	Cntct_Email_Immed_Supv_Addr varchar(65) NOT NULL,
@@ -48,6 +49,7 @@ CREATE TABLE trainrequest.public.TTX_Empl_Trng_Reqst (
 	Emp_First_Nm char(30), NOT NULL,
 	Emp_Last_Nm varchar(30), NOT NULL,
 	Dept_Id varchar(30), NOT NULL,
+	Dept_Bdgt double,
 	Dept_Nm varchar(30), NOT NULL,
 	Dept_Hd_Last_Nm varchar(30), NULL,
 	Dept_Hd_First_Nm char(30), NOT NULL,

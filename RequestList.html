@@ -5,14 +5,16 @@
 <!-- Latest compiled and minified CSS 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
-
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../js/trainList.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/trainList.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -34,16 +36,12 @@
 		    <li> class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administrator <span class="caret"></span></a>
             <ul class="dropdown-menu">
-        
-            
             <li><a href="#">Requests/Approvals</a></li>
             <li><a href="#">Course</a></li>
             <li><a href="#">Vendor </a></li>
 			<li><a href="#">Checkbook</a></li>
 			<li><a href="#">Search History</a></li>
-			
-			
-          </ul>
+		</ul>
         </li>
 		
       </ul>
@@ -64,6 +62,13 @@
             <h3>  Current Budget:  $5235 </h3>
         <div class="table-responsive">
             <table class="table">
+            
+</head>
+<body>
+    <h1>Trains</h1>
+    <table id="RequestList"></table>
+</body>
+</html>
                 <thead>
                 <tr>
                  <th>Name</th>
@@ -77,16 +82,7 @@
                  <td>Visual Studio</td>
                  <td>$425</td>
                 </tr>
-                <tr>
-                 <td>Mary</td>
-                 <td>Moe</td>
-                 <td>$1250</td>
-                </tr>
-                <tr>
-                 <td>July Dooley</td>
-                 <td>Excel</td>
-                 <td>$35</td>
-                </tr>
+               
                 </tbody>
             </table>
         </div>
